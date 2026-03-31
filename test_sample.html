@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test HTML Səhifəsi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f8fbff, #e9f3ff);
+      color: #1f2937;
+    }
+    .container {
+      max-width: 760px;
+      margin: 60px auto;
+      background: white;
+      border-radius: 18px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 32px;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 17px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: #dbeafe;
+      color: #1d4ed8;
+      font-weight: bold;
+      margin-bottom: 18px;
+    }
+    .card {
+      margin-top: 24px;
+      padding: 20px;
+      border-radius: 14px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+    }
+    button {
+      margin-top: 18px;
+      padding: 12px 18px;
+      border: none;
+      border-radius: 10px;
+      background: #2563eb;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    button:hover {
+      opacity: 0.92;
+    }
+    .footer {
+      margin-top: 28px;
+      font-size: 14px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Demo HTML</div>
+    <h1>Salam, bu test səhifəsidir</h1>
+    <p>
+      Bu HTML faylı sadə test üçündür. Faylı brauzerdə açanda bu görünüş çıxmalıdır.
+    </p>
+
+    <div class="card">
+      <strong>Yoxlama üçün:</strong>
+      <ul>
+        <li>Başlıq görünürsə</li>
+        <li>Fon rəngi açıq mavi gradientdirsə</li>
+        <li>Düyməyə klik edəndə mesaj çıxırsa</li>
+      </ul>
+    </div>
+
+    <button onclick="showMessage()">Mənə klik et</button>
+
+    <div class="footer">
+      Hazırlanan nümunə fayl: test_sample.html
+    </div>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("HTML faylı düzgün işləyir ✅");
+    }
+  </script>
+</body>
+</html>
